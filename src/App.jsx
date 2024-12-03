@@ -15,7 +15,6 @@ function RegisterAndLogout() {
   localStorage.clear()
   return <Register />
 }
-
 function App() {
   return (
     <BrowserRouter>
@@ -36,5 +35,7 @@ function App() {
     </BrowserRouter>
   )
 }
+
+console.log(Login);  // Should print the Login component
 
 export default App
